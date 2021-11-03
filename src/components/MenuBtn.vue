@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div class="w-56 text-right fixed top-16">
         <Menu as="div" class="relative inline-block text-left">
             <div>
@@ -117,4 +117,4 @@ import EditIcon from './edit-icon.vue'
 import DeleteIcon from './delete-icon.vue'
 
 
-</script>
+</script> -->
