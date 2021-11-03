@@ -264,12 +264,11 @@ function scrollToTop() {
         <div class="collapse-content">
           <div class="w-1/2 mx-auto">
             <video
-              src="//ww.namu.la/s/6d513337a702662bf9ca2dd3da278269239efbe6e83b391d9c60c3ea3dcb1bdb7fb822312f464f31f6fadfb059c8cba55e9f10dd73a09f827e62993cc2188aaa99d4d577e31ff9a535390c36a479453edadfeff12170c9bd89999f9e6d0b0cab"
+              src="https://ww.namu.la/s/6d513337a702662bf9ca2dd3da278269239efbe6e83b391d9c60c3ea3dcb1bdb7fb822312f464f31f6fadfb059c8cba55e9f10dd73a09f827e62993cc2188aaa99d4d577e31ff9a535390c36a479453edadfeff12170c9bd89999f9e6d0b0cab"
               loop
               autoplay
               muted
               playsinline
-              poster="/skins/senkawa/eff02a509fa92bb835d8902dd4b5b760.gif"
               loading="lazy"
             ></video>
           </div>
@@ -516,7 +515,10 @@ function scrollToTop() {
             </div>
 
             <span class="ml-3">
-              <a href="#" class="no-underline hover:underline ...">위클리(Weeekly) 실시간 뮤직비디오 조회수 추이</a>
+              <a
+                href="https://www.kpop-radar.com/Weeekly"
+                class="no-underline hover:underline ..."
+              >위클리(Weeekly) 실시간 뮤직비디오 조회수 추이</a>
             </span>
           </div>
         </div>
