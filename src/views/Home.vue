@@ -115,7 +115,7 @@ function scrollToTop() {
 <template>
   <div class="fixed right-5 bottom-5 z-50">
     <div data-tip="回到頂端" class="tooltip">
-      <div class="avatar cursor-pointer" @click.native="scrollToTop">
+      <div class="avatar cursor-pointer" @click="scrollToTop">
         <div
           class="mb-8 rounded-full w-12 h-12 md:w-24 md:h-24 ring ring-blue-100 ring-offset-base-100 ring-offset-2"
         >
