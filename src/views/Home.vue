@@ -26,7 +26,7 @@ const { t } = useI18n()
       <div class="grid grid-cols-1 md:grid-cols-2 place-content-between">
         <!-- 目錄 -->
         <div class="border border-gray p-4">
-          <span class="text-bold">{{ t('home.Directory.directory') }}</span>
+          <span class="font-semibold text-xl">{{ t('home.Directory.directory') }}</span>
           <div class="pt-3 flex flex-col">
             <span>
               <a href="#s-1">1</a>
@@ -34,31 +34,31 @@ const { t } = useI18n()
             </span>
             <span>
               <a href="#s-2">2</a>
-              . 成員
+              . {{ t('home.Directory.member') }}
             </span>
             <span class="pl-6">
               <a href="#s-2.1">2.1</a>
-              . 成員間的CP
+              . {{ t('home.Directory.CP') }}
             </span>
             <span>
               <a href="#s-3">3</a>
-              . 外貌
+              . {{ t('home.Directory.appearance') }}
             </span>
             <span>
               <a href="#s-4">4</a>
-              . 世界觀
+              . {{ t('home.Directory.world View') }}
             </span>
             <span>
               <a href="#s-5">5</a>
-              . 專輯列表
+              . {{ t('home.Directory.album List') }}
             </span>
             <span>
               <a href="#s-6">6</a>
-              . MV
+              . {{ t('home.Directory.MV') }}
             </span>
             <span>
               <a href="#s-7">7</a>
-              . 活動
+              . {{ t('home.Directory.activity') }}
             </span>
             <span class="pl-6">
               <a href="#s-7.1">7.1</a>
@@ -66,31 +66,31 @@ const { t } = useI18n()
             </span>
             <span class="pl-6">
               <a href="#s-7.2">7.2</a>
-              . 廣告及畫報
+              . {{ t('home.Directory.advertise') }}
             </span>
             <span class="pl-12">
               <a href="#s-7.2.1">7.2.1</a>
-              . 廣告
+              {{ t('home.Directory.ads') }}
             </span>
             <span>
               <a href="#s-8">8</a>
-              . 獲獎經歷
+              . {{ t('home.Directory.award Experience') }}
             </span>
             <span class="pl-6">
               <a href="#s-8.1">8.1</a>
-              . 頒獎典禮
+              . {{ t('home.Directory.awards Ceremony') }}
             </span>
             <span>
               <a href="#s-9">9</a>
-              . 粉絲
+              . {{ t('home.Directory.fan') }}
             </span>
             <span>
               <a href="#s-10">10</a>
-              . 應援法
+              . {{ t('home.Directory.support') }}
             </span>
             <span>
               <a href="#s-11">11</a>
-              . 閒談
+              . {{ t('home.Directory.chat') }}
             </span>
           </div>
         </div>

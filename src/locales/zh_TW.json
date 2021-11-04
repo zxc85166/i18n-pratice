@@ -1,16 +1,32 @@
 {
   "language": "中文",
-  "navbar":{
-    "soojin":"李受珍",
-    "jiyoon":"申智阭",
-    "monday":"金智敏",
-    "soeun":"朴昭垠",
-    "jaehee":"李在希",
-    "jihan":"韓智效",
-    "zoa":"趙慧洹"
+  "navbar": {
+    "soojin": "李受珍",
+    "jiyoon": "申智阭",
+    "monday": "金智敏",
+    "soeun": "朴昭垠",
+    "jaehee": "李在希",
+    "jihan": "韓智效",
+    "zoa": "趙慧洹"
   },
-  "home":{"Directory":{
-    "directory":"目錄",
-    "summary":"概要"
-  }}
+  "home": {
+    "Directory": {
+      "directory": "目錄",
+      "summary": "概要",
+      "member": "成員",
+      "CP": "成員間的CP",
+      "appearance": "外貌",
+      "world View": "世界觀",
+      "album List": "專輯列表",
+      "MV":"MV",
+      "activity": "活動",
+      "advertise": "廣告及畫報",
+      "ads": "廣告",
+      "award Experience":"獲獎經歷",
+      "awards Ceremony":"頒獎典禮",
+      "fan":"粉絲",
+      "support":"應援法",
+      "chat":"閒談"
+    }
+  }
 }
