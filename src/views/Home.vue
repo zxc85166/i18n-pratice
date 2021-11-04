@@ -134,7 +134,7 @@ function scrollToTop() {
     >
       <!-- 團體照 -->
       <div
-        class="card flex-initial shadow-sm bg-accent text-accent-content text-center mx-auto max-w-5xl"
+        class="card flex-initial shadow-sm bg-accent text-accent-content text-center mx-auto w-auto"
       >
         <figure>
           <img
