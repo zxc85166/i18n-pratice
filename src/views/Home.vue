@@ -14,7 +14,7 @@ const profile =
     },
     {
       title: '리더',
-      content: '李受珍'
+      content: '이수진'
     },
     {
       title: '소속사',
