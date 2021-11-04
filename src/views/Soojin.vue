@@ -1,8 +1,11 @@
 <script setup>
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
+
 const profile =
   [
     {
-      title: '데뷔',
+      title: t('debut'),
       content: `2020년 6월 30일
                 미니 1집 We are
                 데뷔일로부터 +491일째`
@@ -47,7 +50,7 @@ const profile =
           <div class="pt-3 flex flex-col">
             <span>
               <a href="#s-1">1</a>
-              . 概要
+              . {{ t('summary') }}
             </span>
             <span>
               <a href="#s-2">2</a>

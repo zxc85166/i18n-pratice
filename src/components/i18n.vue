@@ -1,38 +1,15 @@
-<template>
-  <form>
-    <label>{{ t('language') }}</label>
-    <select v-model="locale">
-      <option value="en">en</option>
-      <option value="ja">ja</option>
-    </select>
-  </form>
-  <HelloI18n />
-</template>
-
-<script lang="ts">
-import { defineComponent } from 'vue'
+<script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import HelloI18n from '@/components/HelloI18n.vue'
 
-export default defineComponent({
-  name: 'App',
-  components: {
-    HelloI18n
-  },
-  setup() {
-    // use global scope
-    const { t, locale } = useI18n()
-    return { t, locale }
-  }
-})
+const { t, locale, availableLocales } = useI18n()
+const toggleLocales = () => {
+  const locales = availableLocales
+  locale.value = locales[(locales.indexOf(locale.value) + 1) % locales.length]
+}
 </script>
-
-<style scoped>
-form {
-  margin-top: 48px;
-}
-
-label {
-  margin-right: 8px;
-}
-</style>
+  <template>
+  <a
+    class="btn btn-sm btn-ghost cursor-pointer md:text-2xl"
+    @click="toggleLocales"
+  >{{ t('language') }}</a>
+</template>
