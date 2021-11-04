@@ -5,7 +5,7 @@ const { t } = useI18n()
 const profile =
   [
     {
-      title: t('debut'),
+      title: '장르',
       content: `2020년 6월 30일
                 미니 1집 We are
                 데뷔일로부터 +491일째`
