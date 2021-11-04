@@ -508,20 +508,81 @@ function scrollToTop() {
         <input type="checkbox" />
         <div class="collapse-title text-xl font-extrabold" id="s-6">6. MV</div>
         <div class="collapse-content">
-          <div class="mx-5 flex items-center">
-            <div class="w-5">
-              <img
-                src="https://w.namu.la/s/136d6ab3623ef095880975b698cd27aebf6887c9d8eb7f5f72caa1e1e98b8b76a24e2bf57507f45c49090ad8e0c386938300d673e7083183fa216006e2a8a6d972113ec3533215f83889d34cd94d2e24ce46fb8de939ea72c1ab94f36db9336680495f48a35af0bee0cd5da801b59091"
-                alt
-              />
+          <div class="mx-5 gird">
+            <div class="flex items-center pb-4">
+              <div class="w-5">
+                <img
+                  src="https://w.namu.la/s/136d6ab3623ef095880975b698cd27aebf6887c9d8eb7f5f72caa1e1e98b8b76a24e2bf57507f45c49090ad8e0c386938300d673e7083183fa216006e2a8a6d972113ec3533215f83889d34cd94d2e24ce46fb8de939ea72c1ab94f36db9336680495f48a35af0bee0cd5da801b59091"
+                  alt
+                />
+              </div>
+              <span class="ml-3">
+                <a
+                  href="https://www.kpop-radar.com/Weeekly"
+                  class="no-underline hover:underline ..."
+                >위클리(Weeekly) 실시간 뮤직비디오 조회수 추이</a>
+              </span>
             </div>
 
-            <span class="ml-3">
-              <a
-                href="https://www.kpop-radar.com/Weeekly"
-                class="no-underline hover:underline ..."
-              >위클리(Weeekly) 실시간 뮤직비디오 조회수 추이</a>
-            </span>
+            <!-- table -->
+            <div class="text-center grid divide-x-1 border-2 border-blue-100 divide-white">
+              <table class="table-auto border-collapse w-full">
+                <thead>
+                  <span class="bg-blue-100 text-white font-semibold">
+                    <p class="mt-1">Weeekly MV Youtube 조회수</p>
+                    <p class="mb-1">(2021년 08월 19일 PM 7:40 KST 기준)</p>
+                  </span>
+                </thead>
+                <tbody class="bg-white">
+                  <tr class="bg-blue-100 text-white font-semibold">
+                    <td class="border border-gray-200">순위</td>
+                    <td class="border border-gray-200">곡명</td>
+                    <td class="border border-gray-200">조회수</td>
+                    <td class="border border-gray-200">발표일</td>
+                    <td class="border border-gray-200">앨범명</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-gray-200 font-semibold">01</td>
+                    <td class="border border-gray-200 hover:underline">
+                      <a href="https://youtu.be/qfVuRQX0ydQ">After School</a>
+                    </td>
+                    <td class="border border-gray-200 font-semibold">100,139,378</td>
+                    <td class="border border-gray-200">2021년 03월 17일</td>
+                    <td class="border border-gray-200">We play</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-gray-200 font-semibold">02</td>
+                    <td class="border border-gray-200 hover:underline">
+                      <a href="https://youtu.be/DZEOt4pQXXk">Holiday Party</a>
+                    </td>
+                    <td class="border border-gray-200 font-semibold">21,469,801</td>
+                    <td class="border border-gray-200">2021년 08월 04일</td>
+                    <td class="border border-gray-200">Play Game : Holiday</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-gray-200 font-semibold">03</td>
+                    <td class="border border-gray-200 hover:underline">
+                      <a href="https://youtu.be/Moq0aOiTUOA">Tag Me</a>
+                    </td>
+                    <td class="border border-gray-200 font-semibold">17,823,333</td>
+                    <td class="border border-gray-200">2020년 06월 30일</td>
+                    <td class="border border-gray-200">We are</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-gray-200 font-semibold">04</td>
+                    <td class="border border-gray-200 hover:underline">
+                      <a href="https://youtu.be/1FqAoADnId4">Zig Zag</a>
+                    </td>
+                    <td class="border border-gray-200 font-semibold">16,711,007</td>
+                    <td class="border border-gray-200">2020년 10월 13일</td>
+                    <td class="border border-gray-200">We can</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div
+              class="mt-4"
+            >틱톡 챌린지 및 해외 팬들이 유입되면서 After School의 조회수 증가량 추이가 급격히 상승하는 중이다. 2021년 9월 20일 조회수 1억을 돌파했다.</div>
           </div>
         </div>
       </div>
