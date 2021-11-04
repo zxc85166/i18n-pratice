@@ -1,14 +1,43 @@
 <script setup>
-// import { ref } from 'vue'
 import { Menu, MenuButton, MenuItems, MenuItem } from "@headlessui/vue";
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  })
+}
 </script>
 
 <template>
   <div>
+    <!-- Gotop -->
+    <div class="fixed right-5 bottom-5 z-50">
+      <div data-tip="回到頂端" class="tooltip">
+        <div class="avatar cursor-pointer" @click="scrollToTop">
+          <div
+            class="mb-8 rounded-full w-12 h-12 md:w-24 md:h-24 ring ring-blue-100 ring-offset-base-100 ring-offset-2"
+          >
+            <a>
+              <img
+                src="https://w.namu.la/s/5db369ce38cc9091102630d36b59d132110bf7ff6fd11f8287d7622b0968e20ac5d9b8cb3ad3c95e10783512c7e74aa8a95972b386c21e7722a90400706ab2e540679d262a4fd54fc088020ae34bbc3b4cbaecaa0ab65bc27b57522b1ecc29e9c2731c3ca93ba9540efb31ea72c95e25"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Menu -->
     <Menu>
       <div class="navbar shadow-lg bg-neutral text-neutral-content" v-if="$route.meta.title">
         <div class="px-2 mx-2 navbar-start">
-          <span class="text-2xl font-bold">{{ $route.meta.title }}</span>
+          <router-link to="/">
+            <div class="w-2/3">
+              <img
+                src="https://w.namu.la/s/e8736bf4aae183c0b7245027c772885cec7d78f1fc9ff2ffdefb3c01ac8a4b9b41e5dc7900dfbbc5bce38f9f3120ad7892f6cc1fdb0416c3e9304ac2e732d757ca2ebac2dea411f175c6503cf1170ace25487d77c348cd8d11501039549450945263fa6718b566aa2b56c3315575608f"
+                alt
+              />
+            </div>
+          </router-link>
         </div>
         <div class="hidden px-2 mx-2 navbar-center lg:flex">
           <div class="flex items-stretch">

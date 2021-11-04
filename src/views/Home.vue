@@ -103,32 +103,10 @@ const memberProfile =
     }
   ]
 
-function scrollToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth',
-  })
 
-}
 </script>
 
 <template>
-  <!-- Gotop -->
-  <div class="fixed right-5 bottom-5 z-50">
-    <div data-tip="回到頂端" class="tooltip">
-      <div class="avatar cursor-pointer" @click="scrollToTop">
-        <div
-          class="mb-8 rounded-full w-12 h-12 md:w-24 md:h-24 ring ring-blue-100 ring-offset-base-100 ring-offset-2"
-        >
-          <a>
-            <img
-              src="https://w.namu.la/s/5db369ce38cc9091102630d36b59d132110bf7ff6fd11f8287d7622b0968e20ac5d9b8cb3ad3c95e10783512c7e74aa8a95972b386c21e7722a90400706ab2e540679d262a4fd54fc088020ae34bbc3b4cbaecaa0ab65bc27b57522b1ecc29e9c2731c3ca93ba9540efb31ea72c95e25"
-            />
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
   <div class="bg-gray-200">
     <div
       class="max-w-screen-xl bg-white border border-gray-300 px-4 py-12 mx-auto sm:px-6 lg:py-16 lg:px-8 grid grid-flow-row auto-rows-max gap-y-6"
