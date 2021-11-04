@@ -1,30 +1,32 @@
 {
   "language": "한국어",
-  "navbar":{
+  "name":{
     "soojin":"이수진",
     "jiyoon":"신지윤",
-    "monday":"김지민",
+    "monday":"김지민(Monday)",
     "soeun":"박소은",
     "jaehee":"이재희",
-    "jihan":"한지효",
-    "zoa":"조혜원"
+    "jihan":"한지효(Jihan)",
+    "zoa":"조혜원(Zoa)"
   },
-  "home":{"Directory":{
-    "directory":"목차",
-    "summary":"개요",
-    "member": "멤버",
-    "CP": "멤버 간 케미",
-    "appearance": "외모",
-    "world View": "세계관",
-    "album List": "음반 목록",
-    "MV":"뮤직비디오",
-    "activity": "활동",
-    "advertise": "광고 및 화보",
-    "ads": "광고",
-    "award Experience":"수상 경력",
-    "awards Ceremony":"시상식",
-    "fan":"팬덤",
-    "support":"응원법",
-    "chat":"여담"
-  }}
+  "home":{
+    "Directory":{
+      "directory":"목차",
+      "summary":"개요",
+      "member": "멤버",
+      "CP": "멤버 간 케미",
+      "appearance": "외모",
+      "world View": "세계관",
+      "album List": "음반 목록",
+      "MV":"뮤직비디오",
+      "activity": "활동",
+      "advertise": "광고 및 화보",
+      "ads": "광고",
+      "award Experience":"수상 경력",
+      "awards Ceremony":"시상식",
+      "fan":"팬덤",
+      "support":"응원법",
+      "chat":"여담"
+    }
+  }
 }

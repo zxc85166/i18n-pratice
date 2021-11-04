@@ -1,15 +1,15 @@
 {
   "language": "中文",
-  "navbar": {
+  "name":{
     "soojin": "李受珍",
     "jiyoon": "申智阭",
-    "monday": "金智敏",
+    "monday": "金智敏(Monday)",
     "soeun": "朴昭垠",
     "jaehee": "李在希",
-    "jihan": "韓智效",
-    "zoa": "趙慧洹"
+    "jihan": "韓智效(Jihan)",
+    "zoa": "趙慧洹(Zoa)"
   },
-  "home": {
+  "home":{
     "Directory": {
       "directory": "目錄",
       "summary": "概要",

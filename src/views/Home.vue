@@ -135,7 +135,9 @@ const { t } = useI18n()
           <div class="grid grid-cols-3 grid-flow-col grid-flow-row">
             <div class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center">데뷔</div>
             <div class="col-span-2 grid place-items-center">
-              <p class="pl-2 text-blue-100">이수진</p>
+              <span class="pl-2">
+                <router-link to="Soojin" class="no-underline hover:underline">이수진</router-link>
+              </span>
             </div>
           </div>
           <div class="grid grid-cols-3 grid-flow-col grid-flow-row">
@@ -209,7 +211,10 @@ const { t } = useI18n()
       <!-- 1. 概要 -->
       <div class="collapse w-full collapse-arrow">
         <input type="checkbox" />
-        <div class="collapse-title text-xl font-extrabold" id="s-1">1. 概要</div>
+        <div
+          class="collapse-title text-xl font-extrabold"
+          id="s-1"
+        >1. {{ t('home.Directory.summary') }}</div>
         <div class="collapse-content">
           <div class="w-1/2 mx-auto">
             <!-- poster="/skins/senkawa/eff02a509fa92bb835d8902dd4b5b760.gif" -->
@@ -238,7 +243,10 @@ const { t } = useI18n()
       <!-- 2. 成員 -->
       <div class="collapse w-full collapse-arrow">
         <input type="checkbox" />
-        <div class="collapse-title text-xl font-extrabold" id="s-2">2. 成員</div>
+        <div
+          class="collapse-title text-xl font-extrabold"
+          id="s-2"
+        >2. {{ t('home.Directory.member') }}</div>
         <div class="collapse-content">
           <div
             class="border-2 border-blue-100 grid grid-cols-2 md:grid-cols-4 bg-white text-center max-w-5xl mx-auto"
@@ -250,7 +258,9 @@ const { t } = useI18n()
                   src="https://w.namu.la/s/5db369ce38cc9091102630d36b59d132110bf7ff6fd11f8287d7622b0968e20ac5d9b8cb3ad3c95e10783512c7e74aa8a95972b386c21e7722a90400706ab2e5ef30f22d2e4969a5d0301a24e4bcb18895552ac861ec6458521d044488e4d11544b4c514b211d201aa71e662b4ce8162"
                 />
               </div>
-              <div class="bg-blue-100 text-white font-bold grid place-items-center p-1">李受珍</div>
+              <div
+                class="bg-blue-100 text-white font-bold grid place-items-center p-1"
+              >{{ t('name.soojin') }}</div>
               <div class="p-1">2001. 12. 12</div>
               <div class="p-1">
                 <p>
@@ -271,7 +281,9 @@ const { t } = useI18n()
                   src="https://w.namu.la/s/32ba23b1f31214d4c0686ab6c679fcd594ec3be448ec11d3b1dc3e655c5adb0e57a28522ab851f6d815f984819d0ecb4b07d101207ee23005af5b94d77a0d339413045600e894e243624997c983993c0138018dedc805aa7db21697fb389c182e344d7d3fef8dae71e5019eafa0c5ea8"
                 />
               </div>
-              <div class="bg-blue-100 text-white font-bold grid place-items-center p-1">申智阭</div>
+              <div
+                class="bg-blue-100 text-white font-bold grid place-items-center p-1"
+              >{{ t('name.jiyoon') }}</div>
               <div class="p-1">2001. 12. 12</div>
               <div class="p-1">
                 <p>리드보컬</p>
@@ -286,7 +298,9 @@ const { t } = useI18n()
                   src="https://w.namu.la/s/c257247913cd4d82f683a854c4089eea4d3ccaabbd66b5405881aabe230cd67e135e20e3dbd8b72b6a16ce867a4b964a1acff00e3ced09a8ba0bef6ebc5e663e83bf9bfae1d157464d56069ea46976a97cd36ed604c68ce205fb2fbcc1698dfd6e74fc6f03d619c92158330e3b7e7ead"
                 />
               </div>
-              <div class="bg-blue-100 text-white font-bold grid place-items-center p-1">Monday</div>
+              <div
+                class="bg-blue-100 text-white font-bold grid place-items-center p-1"
+              >{{ t('name.monday') }}</div>
               <div class="p-1">2001. 12. 12</div>
               <div class="p-1">
                 <p>
@@ -305,7 +319,9 @@ const { t } = useI18n()
                   src="https://w.namu.la/s/a7a1c6048242bc5f959ff016fe10d149b6ec98956bb4549bb5d754835d59a04f58affe214c53262727c07ef1e2c5b97ed08b592d745bddcb47625ed20b7013d9850d7704d05582bf3cae6faa8e8cb8c0d5e02404747e8d8d5201dae16d2300d2c1fc73eea4f2e2502347e4dba731f5d8"
                 />
               </div>
-              <div class="bg-blue-100 text-white font-bold grid place-items-center p-1">朴昭垠</div>
+              <div
+                class="bg-blue-100 text-white font-bold grid place-items-center p-1"
+              >{{ t('name.soeun') }}</div>
               <div class="p-1">2001. 12. 12</div>
               <div class="p-1">
                 <p>
@@ -320,7 +336,9 @@ const { t } = useI18n()
                   src="https://w.namu.la/s/f063d1356e6edf95af9f9360b23e0fedbc63c867aae3d260d53a686a0f36651644effb8c521e5d6ecb8c2522a43aa7d6d2662983ec3b9cd97eb8dfd921b01f832211e3018127f0f8c94dab51fa21d75d734bc202a846e7924ff5911d11c647b21128f84aabd6a2fb95dd0e43fe224012"
                 />
               </div>
-              <div class="bg-blue-100 text-white font-bold grid place-items-center p-1">李在希</div>
+              <div
+                class="bg-blue-100 text-white font-bold grid place-items-center p-1"
+              >{{ t('name.jaehee') }}</div>
               <div class="p-1">2001. 12. 12</div>
               <div class="p-1">
                 <p>서브보컬</p>래퍼
@@ -333,7 +351,9 @@ const { t } = useI18n()
                   src="https://w.namu.la/s/891f1405f0472d973e7a7dd68e37a4d55b9e904e4f6e7c878f3fb94f1d144b27811caa061faedaca5a1f3840bd88b9d5e7aa8cee38381b03f1ef5ae7de5929d3c6ad356089884cc2e1d0cae3a0225f6b0c055f7720fefe6a55470644433e0c28fe0e5855e0d4cd0aa5d8003c4ade30b1"
                 />
               </div>
-              <div class="bg-blue-100 text-white font-bold grid place-items-center p-1">지한</div>
+              <div
+                class="bg-blue-100 text-white font-bold grid place-items-center p-1"
+              >{{ t('name.jihan') }}</div>
               <div class="p-1">2001. 12. 12</div>
               <div class="p-1">
                 <p>리드보컬</p>리드댄서
@@ -346,7 +366,9 @@ const { t } = useI18n()
                   src="https://w.namu.la/s/e30eb453f56e30012e92384dc81cb214a4c9933ba1383f86e3333839cbb372d989fd75b272897e88d17e5a27407173466b76f9490909f1ed14f64de03ade5e79585a1e385af3605593af339530152558f7e6bb1239e0af61536fd464e2c3cff054734eb5a316c6a04dfffb0af19bcce7"
                 />
               </div>
-              <div class="bg-blue-100 text-white font-bold grid place-items-center p-1">Zoa</div>
+              <div
+                class="bg-blue-100 text-white font-bold grid place-items-center p-1"
+              >{{ t('name.zoa') }}</div>
               <div class="p-1">2001. 12. 12</div>
               <div class="p-1">
                 <p>서브보컬</p>래퍼
@@ -365,105 +387,140 @@ const { t } = useI18n()
       <!-- 2.1. 成員間的CP -->
       <div class="collapse w-full collapse-arrow">
         <input type="checkbox" />
-        <div class="collapse-title text-xl font-extrabold" id="s-2.1">2.1. 成員間的CP</div>
+        <div
+          class="collapse-title text-xl font-extrabold"
+          id="s-2.1"
+        >2.1. {{ t('home.Directory.CP') }}</div>
         <div class="collapse-content">
           <div class="mx-5">
             <ul class="list-disc leading-10">
               <li>
-                <strong class="text-red-500">페이브걸즈</strong> - 李受珍, 申智阭, Monday, 朴昭垠, 李在希
+                <strong class="text-red-500">페이브걸즈</strong>
+                - {{ t('name.soojin') }}, {{ t('name.jiyoon') }}, {{ t('name.jiyoon') }}, {{ t('name.soeun') }}, {{ t('name.jaehee') }}
               </li>
               <li>
-                <strong class="text-blue-800">공이(02)즈/ 올라운더즈</strong> - 申智阭, Monday, 朴昭垠
+                <strong class="text-blue-800">공이(02)즈/ 올라운더즈</strong>
+                - {{ t('name.jiyoon') }}, {{ t('name.monday') }}, {{ t('name.soeun') }}
               </li>
               <li>
-                <strong class="text-red-500">공사(04)즈/ 공사장</strong> - 李在希, 지한
+                <strong class="text-red-500">공사(04)즈/ 공사장</strong>
+                - {{ t('name.jaehee') }}, {{ t('name.jihan') }}
               </li>
               <li>
-                <strong class="text-blue-800">3월즈</strong> - 申智阭, 李在希
+                <strong class="text-blue-800">3월즈</strong>
+                - {{ t('name.jiyoon') }}, {{ t('name.jaehee') }}
               </li>
               <li>
-                <strong class="text-red-500">5월즈/ 월요일 Zoa/ 스폰지밥</strong> - Monday, Zoa
+                <strong class="text-red-500">5월즈/ 월요일 {{ t('name.zoa') }}/ 스폰지밥</strong>
+                - {{ t('name.monday') }}, {{ t('name.zoa') }}
               </li>
               <li>
-                <strong class="text-blue-800">맏막즈/ 리막즈/ Zoa진/ 과수원</strong> - 李受珍, Zoa
+                <strong class="text-blue-800">맏막즈/ 리막즈/ {{ t('name.zoa') }}진/ 과수원</strong>
+                - {{ t('name.soojin') }}, {{ t('name.zoa') }}
               </li>
               <li>
-                <strong class="text-red-500">언니즈/ 성인즈/ 언니라인</strong> - 李受珍, 申智阭, Monday, 朴昭垠
+                <strong class="text-red-500">언니즈/ 성인즈/ 언니라인</strong>
+                - {{ t('name.soojin') }}, {{ t('name.jiyoon') }}, {{ t('name.monday') }}, {{ t('name.soeun') }}
               </li>
               <li>
-                <strong class="text-blue-800">동생즈/ 막내(동생)라인/ 외동즈/ 학생라인/ 산리오 / 뽀송즈</strong> - 李在希, 지한, Zoa
+                <strong class="text-blue-800">동생즈/ 막내(동생)라인/ 외동즈/ 학생라인/ 산리오 / 뽀송즈</strong>
+                - {{ t('name.jaehee') }}, {{ t('name.jihan') }}, {{ t('name.zoa') }}
               </li>
               <li>
-                <strong class="text-red-500">주말즈/ 이씨즈/ 이이즈/ 케챱즈/ 유일무이즈</strong> - 李受珍, 李在希
+                <strong class="text-red-500">주말즈/ 이씨즈/ 이이즈/ 케챱즈/ 유일무이즈</strong>
+                - {{ t('name.soojin') }}, {{ t('name.jaehee') }}
               </li>
               <li>
-                <strong class="text-blue-800">평일즈</strong> - 申智阭, Monday, 朴昭垠, 지한, Zoa
+                <strong class="text-blue-800">평일즈</strong>
+                - {{ t('name.jiyoon') }}, {{ t('name.monday') }}, {{ t('name.soeun') }}, {{ t('name.jihan') }}, {{ t('name.zoa') }}
               </li>
               <li>
-                <strong class="text-red-500">강토즈/ A형즈</strong> - 李受珍, 지한
+                <strong class="text-red-500">강토즈/ A형즈</strong>
+                - {{ t('name.soojin') }}, {{ t('name.jihan') }}
               </li>
               <li>
-                <strong class="text-blue-800">행복해지소/ 빌런즈/ 긍굥쌤</strong> - 申智阭, 朴昭垠
+                <strong class="text-blue-800">행복해지소/ 빌런즈/ 긍굥쌤</strong>
+                - {{ t('name.jiyoon') }}, {{ t('name.soeun') }}
               </li>
               <li>
-                <strong class="text-red-500">믹나즈</strong> - 李受珍, 申智阭, 朴昭垠
+                <strong class="text-red-500">믹나즈</strong>
+                - {{ t('name.soojin') }}, {{ t('name.jiyoon') }}, {{ t('name.soeun') }}
               </li>
               <li>
-                <strong class="text-blue-800">젤리데이/ 룸메즈</strong> - 李在希, Monday
+                <strong class="text-blue-800">젤리데이/ 룸메즈</strong>
+                - {{ t('name.jaehee') }}, {{ t('name.monday') }}
               </li>
               <li>
-                <strong class="text-red-500">쏭아지</strong> - 朴昭垠, Zoa, 申智阭
+                <strong class="text-red-500">쏭아지</strong>
+                - {{ t('name.soeun') }}, {{ t('name.zoa') }}, {{ t('name.jiyoon') }}
               </li>
               <li>
-                <strong class="text-blue-800">수소즈/ 연습생장기라인즈</strong> - 李受珍, 朴昭垠
+                <strong class="text-blue-800">수소즈/ 연습생장기라인즈</strong>
+                - {{ t('name.soojin') }}, {{ t('name.soeun') }}
               </li>
               <li>
-                <strong class="text-red-500">사랑둥이즈/ ENFJ즈</strong> - 李在希, Zoa
+                <strong class="text-red-500">사랑둥이즈/ ENFJ즈</strong>
+                - {{ t('name.jaehee') }}, {{ t('name.zoa') }}
               </li>
               <li>
-                <strong class="text-blue-800">짠소금/ 화목즈/ 주토피아즈</strong> - 朴昭垠, 지한
+                <strong class="text-blue-800">짠소금/ 화목즈/ 주토피아즈</strong>
+                - {{ t('name.soeun') }}, {{ t('name.jihan') }}
               </li>
               <li>
-                <strong class="text-red-500">찰떡즈</strong> - 申智阭, Zoa
+                <strong class="text-red-500">찰떡즈</strong>
+                - {{ t('name.jiyoon') }}, {{ t('name.zoa') }}
               </li>
               <li>
-                <strong class="text-blue-800">진지즈/ 식빵즈/ 수지즈</strong> - 李受珍, 申智阭
+                <strong class="text-blue-800">진지즈/ 식빵즈/ 수지즈</strong>
+                - {{ t('name.soojin') }}, {{ t('name.jiyoon') }}
               </li>
               <li>
-                <strong class="text-red-500">설탕즈</strong> - 李受珍, 지한, Zoa
+                <strong class="text-red-500">설탕즈</strong>
+                - {{ t('name.soojin') }}, {{ t('name.jihan') }}, {{ t('name.zoa') }}
               </li>
               <li>
-                <strong class="text-blue-800">메댄즈</strong> - 李受珍, Monday, 朴昭垠
+                <strong class="text-blue-800">메댄즈</strong>
+                - {{ t('name.soojin') }}, {{ t('name.monday') }}, {{ t('name.soeun') }}
               </li>
               <li>
-                <strong class="text-red-500">삼백안즈</strong> - 李受珍,Monday,Zoa
+                <strong class="text-red-500">삼백안즈</strong>
+                - {{ t('name.soojin') }},{{ t('name.monday') }},{{ t('name.zoa') }}
               </li>
               <li>
-                <strong class="text-blue-800">지방즈</strong> - Monday, 朴昭垠
+                <strong class="text-blue-800">지방즈</strong>
+                - {{ t('name.monday') }}, {{ t('name.soeun') }}
               </li>
               <li>
-                <strong class="text-red-500">장신즈</strong> - Monday, 朴昭垠, Zoa
+                <strong class="text-red-500">장신즈</strong>
+                - {{ t('name.monday') }}, {{ t('name.soeun') }}, {{ t('name.zoa') }}
               </li>
               <li>
-                <strong class="text-blue-800">단신즈/ 쪼꼬미즈/ 평균즈</strong> - 李受珍, 李在希, 申智阭, 지한
+                <strong class="text-blue-800">단신즈/ 쪼꼬미즈/ 평균즈</strong>
+                - {{ t('name.soojin') }}, {{ t('name.jaehee') }}, {{ t('name.jiyoon') }}, {{ t('name.jihan') }}
               </li>
               <li>
-                <strong class="text-red-500">일월즈/ 톰과제리즈</strong> - 李受珍, Monday
+                <strong class="text-red-500">일월즈/ 톰과제리즈</strong>
+                - {{ t('name.soojin') }}, {{ t('name.monday') }}
               </li>
               <li>
-                <strong class="text-blue-800">예명즈</strong> - 지한, Monday, Zoa
+                <strong class="text-blue-800">예명즈</strong>
+                - {{ t('name.jihan') }}, {{ t('name.monday') }}, {{ t('name.zoa') }}
               </li>
               <li>
-                <strong class="text-red-500">본명즈</strong> - 李受珍, 李在希, 申智阭, 朴昭垠
+                <strong class="text-red-500">본명즈</strong>
+                - {{ t('name.soojin') }}, {{ t('name.jaehee') }}, {{ t('name.jiyoon') }}, {{ t('name.soeun') }}
               </li>
               <li>
-                <strong class="text-blue-800">화채즈</strong> - 李受珍, 朴昭垠, 지한
+                <strong class="text-blue-800">화채즈</strong>
+                - {{ t('name.soojin') }}, {{ t('name.soeun') }}, {{ t('name.jihan') }}
               </li>
               <li>
-                <strong class="text-red-500">태극즈</strong> - 朴昭垠, Zoa
+                <strong class="text-red-500">태극즈</strong>
+                - {{ t('name.soeun') }}, {{ t('name.zoa') }}
               </li>
               <li>
-                <strong class="text-blue-800">B형즈</strong> - 申智阭, Monday, 朴昭垠, 李在希
+                <strong class="text-blue-800">B형즈</strong>
+                - {{ t('name.jiyoon') }}, {{ t('name.monday') }}, {{ t('name.soeun') }}, {{ t('name.jaehee') }}
               </li>
             </ul>
           </div>
@@ -472,7 +529,10 @@ const { t } = useI18n()
       <!-- 3. 外貌 -->
       <div class="collapse w-full collapse-arrow">
         <input type="checkbox" />
-        <div class="collapse-title text-xl font-extrabold" id="s-3">3. 外貌</div>
+        <div
+          class="collapse-title text-xl font-extrabold"
+          id="s-3"
+        >3. {{ t('home.Directory.appearance') }}</div>
         <div class="collapse-content">
           <div class="mx-5">
             <ul class="list-disc">
@@ -484,7 +544,10 @@ const { t } = useI18n()
       <!-- 4. 世界觀 -->
       <div class="collapse w-full collapse-arrow">
         <input type="checkbox" />
-        <div class="collapse-title text-xl font-extrabold" id="s-4">4. 世界觀</div>
+        <div
+          class="collapse-title text-xl font-extrabold"
+          id="s-4"
+        >4. {{ t('home.Directory.world View') }}</div>
         <div class="collapse-content">
           <div class="mx-5">
             <ul class="list-disc">
@@ -495,15 +558,15 @@ const { t } = useI18n()
               <li class="pb-4">
                 Jihan的teaser影片《A MESSAGE FROM MARS》中，
                 因為Jihan是火星的星主，所以可以從火星向其他成員發送訊息。
-                剩下的成員們是受珍-太陽、Monday-月亮、智阭-水星、昭垠-木星、Zoa-金星、在希-土星。
-                這邊要注意的一點是，Monday是"月"，與在地球身邊旋轉與其他成員不同。
+                剩下的成員們是受珍-太陽、{{ t('name.monday') }}-月亮、智阭-水星、昭垠-木星、{{ t('name.zoa') }}-金星、在希-土星。
+                這邊要注意的一點是，{{ t('name.monday') }}是"月"，與在地球身邊旋轉與其他成員不同。
               </li>
               <li>除此之外世界觀的核心內容如下:</li>
               <div class="pl-8 pb-4">
                 <li>成員們已失去了記憶。</li>
                 <li>Weeekly成員們為何來到地球呢?</li>
                 <li>
-                  帶有許多好奇心的月球星主Monday喜歡觀察地球。
+                  帶有許多好奇心的月球星主{{ t('name.monday') }}喜歡觀察地球。
                   某一天，發現地球出現問題後向掌管太陽系的受珍報告了這一消息。
                 </li>
                 <li>
@@ -528,7 +591,10 @@ const { t } = useI18n()
       <!-- 5. 專輯列表 -->
       <div class="collapse w-full collapse-arrow">
         <input type="checkbox" />
-        <div class="collapse-title text-xl font-extrabold" id="s-5">5. 專輯列表</div>
+        <div
+          class="collapse-title text-xl font-extrabold"
+          id="s-5"
+        >5. {{ t('home.Directory.album List') }}</div>
         <div class="collapse-content">
           <div class="mx-5 flex items-center">
             <div class="w-5">
@@ -549,7 +615,7 @@ const { t } = useI18n()
       <!-- 6. MV -->
       <div class="collapse w-full collapse-arrow">
         <input type="checkbox" />
-        <div class="collapse-title text-xl font-extrabold" id="s-6">6. MV</div>
+        <div class="collapse-title text-xl font-extrabold" id="s-6">6. {{ t('home.Directory.MV') }}</div>
         <div class="collapse-content">
           <div class="mx-5 gird">
             <div class="flex items-center pb-4">
@@ -562,7 +628,7 @@ const { t } = useI18n()
               <span class="ml-3">
                 <a
                   href="https://www.kpop-radar.com/Weeekly"
-                  class="no-underline hover:underline ..."
+                  class="no-underline hover:underline"
                 >위클리(Weeekly) 실시간 뮤직비디오 조회수 추이</a>
               </span>
             </div>
