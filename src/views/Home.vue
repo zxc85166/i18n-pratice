@@ -117,7 +117,9 @@ const { t } = useI18n()
           <!-- logo -->
           <!-- 資訊 -->
           <div class="grid grid-cols-3 grid-flow-col grid-flow-row text-center">
-            <div class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center">데뷔</div>
+            <div
+              class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center"
+            >{{ t('home.Group Information.debut') }}</div>
             <div class="col-span-2 grid place-items-center">
               <div class="pl-2 text-blue-100">
                 <p>2020년 6월 30일</p>
