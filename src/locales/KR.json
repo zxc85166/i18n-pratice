@@ -1,7 +1,7 @@
 {
-  "language": "English",
+  "language": "한국어",
   "debut":"Debut",
-  "summary":"Summary",
+  "summary":"개요",
   "hello": "Hello Vue I18n 9 🌏!",
   "count": "count is: {count}",
   "docs": {

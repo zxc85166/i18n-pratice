@@ -1,38 +1,6 @@
 <script setup>
 
-const profile =
-  [
-    {
-      title: '데뷔',
-      content: `2020년 6월 30일
-                미니 1집 We are
-                데뷔일로부터 +491일째`
-    },
-    {
-      title: '장르',
-      content: '댄스, 퓨처 베이스, R&B'
-    },
-    {
-      title: '리더',
-      content: '이수진'
-    },
-    {
-      title: '소속사',
-      img: 'https://w.namu.la/s/7d36306a2571e6b24e97b8783de7f86cd83d69df44e5eb9020eaed48376b6432eb44dae00b8fc73890f33e6acc51f12e068a005a258ddb6324c6fb507adf1c47908cb1b349be3325c1e626962f9516bfb6e28634e6435f7d02fd60ed3832fcac'
-    },
-    {
-      title: '유통사',
-      img: 'https://w.namu.la/s/f5e46b377a4d14462bb42dab69de0836a68482277ccfe747f4e15c2db3ef4c5c6f78cabebce800da869595cacd330243eb9adb95402ebc9d6619bb3170917941445759f3a144918393d130294223bb5d5aa58f2015b9d8e3f0fa0f53debed2e6'
-    },
-    {
-      title: '팬덤',
-      img: 'https://w.namu.la/s/1ea4f8c5687089f13cad14958cbdc4088ec9d500b4c0048554c3f260a3ed48a49b6346391594ecf152b074830d195541c29d654c8be0130d4156e0c2276d6732157b728efde3e9b588d2a021d2ab0b808206a119b92d5a9d2b6675f3d925cd8b'
-    },
-    {
-      title: '관련 링크',
 
-    }
-  ]
 const memberProfile =
   [
     {
@@ -219,17 +187,74 @@ const memberProfile =
           </div>
           <!-- logo -->
           <!-- 資訊 -->
-          <div
-            v-for="(value, key, index) in profile"
-            :key="profile.index"
-            class="grid grid-cols-3 grid-flow-col grid-flow-row"
-          >
-            <div
-              class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center"
-            >{{ value.title }}</div>
+          <div class="grid grid-cols-3 grid-flow-col grid-flow-row">
+            <div class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center">데뷔</div>
             <div class="col-span-2 grid place-items-center">
-              <p class="pl-2 text-blue-100">{{ value.content }}</p>
-              <img class="w-1/4" :src="value.img" />
+              <p class="pl-2 text-blue-100">
+                2020년 6월 30일
+                미니 1집 We are
+                데뷔일로부터 +491일째
+              </p>
+              <img
+                class="w-1/4"
+                src="https://w.namu.la/s/7d36306a2571e6b24e97b8783de7f86cd83d69df44e5eb9020eaed48376b6432eb44dae00b8fc73890f33e6acc51f12e068a005a258ddb6324c6fb507adf1c47908cb1b349be3325c1e626962f9516bfb6e28634e6435f7d02fd60ed3832fcac"
+              />
+            </div>
+          </div>
+          <div class="grid grid-cols-3 grid-flow-col grid-flow-row">
+            <div class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center">데뷔</div>
+            <div class="col-span-2 grid place-items-center">
+              <p class="pl-2 text-blue-100">
+                2020년 6월 30일
+                미니 1집 We are
+                데뷔일로부터 +491일째
+              </p>
+            </div>
+          </div>
+          <div class="grid grid-cols-3 grid-flow-col grid-flow-row">
+            <div class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center">데뷔</div>
+            <div class="col-span-2 grid place-items-center">
+              <p class="pl-2 text-blue-100">
+                2020년 6월 30일
+                미니 1집 We are
+                데뷔일로부터 +491일째
+              </p>
+            </div>
+          </div>
+          <div class="grid grid-cols-3 grid-flow-col grid-flow-row">
+            <div class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center">데뷔</div>
+            <div class="col-span-2 grid place-items-center">
+              <img
+                class="w-1/4"
+                src="https://w.namu.la/s/7d36306a2571e6b24e97b8783de7f86cd83d69df44e5eb9020eaed48376b6432eb44dae00b8fc73890f33e6acc51f12e068a005a258ddb6324c6fb507adf1c47908cb1b349be3325c1e626962f9516bfb6e28634e6435f7d02fd60ed3832fcac"
+              />
+            </div>
+          </div>
+          <div class="grid grid-cols-3 grid-flow-col grid-flow-row">
+            <div class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center">데뷔</div>
+            <div class="col-span-2 grid place-items-center">
+              <img
+                class="w-1/4"
+                src="https://w.namu.la/s/7d36306a2571e6b24e97b8783de7f86cd83d69df44e5eb9020eaed48376b6432eb44dae00b8fc73890f33e6acc51f12e068a005a258ddb6324c6fb507adf1c47908cb1b349be3325c1e626962f9516bfb6e28634e6435f7d02fd60ed3832fcac"
+              />
+            </div>
+          </div>
+          <div class="grid grid-cols-3 grid-flow-col grid-flow-row">
+            <div class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center">데뷔</div>
+            <div class="col-span-2 grid place-items-center">
+              <img
+                class="w-1/4"
+                src="https://w.namu.la/s/7d36306a2571e6b24e97b8783de7f86cd83d69df44e5eb9020eaed48376b6432eb44dae00b8fc73890f33e6acc51f12e068a005a258ddb6324c6fb507adf1c47908cb1b349be3325c1e626962f9516bfb6e28634e6435f7d02fd60ed3832fcac"
+              />
+            </div>
+          </div>
+          <div class="grid grid-cols-3 grid-flow-col grid-flow-row">
+            <div class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center">데뷔</div>
+            <div class="col-span-2 grid place-items-center">
+              <img
+                class="w-1/4"
+                src="https://w.namu.la/s/7d36306a2571e6b24e97b8783de7f86cd83d69df44e5eb9020eaed48376b6432eb44dae00b8fc73890f33e6acc51f12e068a005a258ddb6324c6fb507adf1c47908cb1b349be3325c1e626962f9516bfb6e28634e6435f7d02fd60ed3832fcac"
+              />
             </div>
           </div>
           <!-- 資訊 -->
