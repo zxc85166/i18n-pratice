@@ -1,5 +1,16 @@
 {
   "language": "中文",
-  "debut":"出道",
-  "summary":"概要"
+  "navbar":{
+    "soojin":"李受珍",
+    "jiyoon":"申智阭",
+    "monday":"金智敏",
+    "soeun":"朴昭垠",
+    "jaehee":"李在希",
+    "jihan":"韓智效",
+    "zoa":"趙慧洹"
+  },
+  "home":{"Directory":{
+    "directory":"目錄",
+    "summary":"概要"
+  }}
 }

@@ -1,12 +1,16 @@
 {
   "language": "한국어",
-  "debut":"Debut",
-  "summary":"개요",
-  "hello": "Hello Vue I18n 9 🌏!",
-  "count": "count is: {count}",
-  "docs": {
-    "vue-i18n": "Vue I18n v9 Documentation",
-    "vite-plugin": "Vite Plugin Vue I18n Documentation"
+  "navbar":{
+    "soojin":"이수진",
+    "jiyoon":"신지윤",
+    "monday":"김지민",
+    "soeun":"박소은",
+    "jaehee":"이재희",
+    "jihan":"한지효",
+    "zoa":"조혜원"
   },
-  "recommended": "Recommended setup"
+  "home":{"Directory":{
+    "directory":"목차",
+    "summary":"개요"
+  }}
 }

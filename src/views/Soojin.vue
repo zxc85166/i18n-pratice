@@ -50,7 +50,7 @@ const profile =
           <div class="pt-3 flex flex-col">
             <span>
               <a href="#s-1">1</a>
-              . {{ t('summary') }}
+              . {{ t('home.Directory.summary') }}
             </span>
             <span>
               <a href="#s-2">2</a>
@@ -126,7 +126,7 @@ const profile =
           <div class="grid gap-2 grid-flow-col">
             <div class="col-span-2 grid place-items-center">
               <img
-                src="https://w.namu.la/s/37c77f7672813b8d9b470b54825673af5dbd950b05c4b777dfb3f1e9fd4ef47648bdcc55cbc5e6d553dc15590371696a7e8f6e315ab1428ba51b7bd1549f4b00259fb7d41bb70e4df05814807d0adb135b8f9c93a7b0aaa96e519eb17eb9faf431fd5a72d199508613255c50e034e02c"
+                src="https://w.namu.la/s/37c77f7672813b8d9b470b54825673af5dbd950b05c4b777dfb3f1e9fd4ef47648bdcc55cbc5e6d553dc15590371696a7e8f6e315ab1428ba51b7bd1549f4b008d3c28d97ba8cdec1177eb785ef484336250b98b0a41611079da017fa480713b443aaf7237630b2a31445a420d7b22bd"
                 class="w-full"
               />
             </div>

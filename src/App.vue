@@ -1,6 +1,9 @@
 <script setup>
 import { Menu, MenuButton, MenuItems, MenuItem } from "@headlessui/vue";
+import { useI18n } from 'vue-i18n'
 import i18n from '@/components/i18n.vue'
+
+const { t } = useI18n()
 function scrollToTop() {
   window.scrollTo({
     top: 0,
@@ -47,14 +50,25 @@ function scrollToTop() {
         </div>
         <div class="hidden px-2 mx-2 navbar-center lg:flex">
           <div class="flex items-stretch">
-            <router-link to="/" class="btn btn-ghost btn-sm rounded-btn">Home</router-link>
-            <router-link to="Soojin" class="btn btn-ghost btn-sm rounded-btn">Soojin</router-link>
-            <router-link to="Jiyoon" class="btn btn-ghost btn-sm rounded-btn">Jiyoon</router-link>
-            <router-link to="Monday" class="btn btn-ghost btn-sm rounded-btn">Monday</router-link>
-            <router-link to="Soeun" class="btn btn-ghost btn-sm rounded-btn">Soeun</router-link>
-            <router-link to="Jaehee" class="btn btn-ghost btn-sm rounded-btn">Jaehee</router-link>
-            <router-link to="Jihan" class="btn btn-ghost btn-sm rounded-btn">Jihan</router-link>
-            <router-link to="Zoa" class="btn btn-ghost btn-sm rounded-btn">Zoa</router-link>
+            <router-link
+              to="Soojin"
+              class="btn btn-ghost btn-sm rounded-btn"
+            >{{ t('navbar.soojin') }}</router-link>
+            <router-link
+              to="Jiyoon"
+              class="btn btn-ghost btn-sm rounded-btn"
+            >{{ t('navbar.jiyoon') }}</router-link>
+            <router-link
+              to="Monday"
+              class="btn btn-ghost btn-sm rounded-btn"
+            >{{ t('navbar.monday') }}</router-link>
+            <router-link to="Soeun" class="btn btn-ghost btn-sm rounded-btn">{{ t('navbar.soeun') }}</router-link>
+            <router-link
+              to="Jaehee"
+              class="btn btn-ghost btn-sm rounded-btn"
+            >{{ t('navbar.jaehee') }}</router-link>
+            <router-link to="Jihan" class="btn btn-ghost btn-sm rounded-btn">{{ t('navbar.jihan') }}</router-link>
+            <router-link to="Zoa" class="btn btn-ghost btn-sm rounded-btn">{{ t('navbar.zoa') }}</router-link>
           </div>
         </div>
         <div class="navbar-end"></div>
@@ -81,14 +95,25 @@ function scrollToTop() {
       <MenuItems class="flex-none lg:hidden">
         <MenuItem>
           <div class="flex flex-col">
-            <router-link to="/" class="btn btn-ghost btn-sm rounded-btn">Home</router-link>
-            <router-link to="Soojin" class="btn btn-ghost btn-sm rounded-btn">Soojin</router-link>
-            <router-link to="Jiyoon" class="btn btn-ghost btn-sm rounded-btn">Jiyoon</router-link>
-            <router-link to="Monday" class="btn btn-ghost btn-sm rounded-btn">Monday</router-link>
-            <router-link to="Soeun" class="btn btn-ghost btn-sm rounded-btn">Soeun</router-link>
-            <router-link to="Jaehee" class="btn btn-ghost btn-sm rounded-btn">Jaehee</router-link>
-            <router-link to="Jihan" class="btn btn-ghost btn-sm rounded-btn">Jihan</router-link>
-            <router-link to="Zoa" class="btn btn-ghost btn-sm rounded-btn">Zoa</router-link>
+            <router-link
+              to="Soojin"
+              class="btn btn-ghost btn-sm rounded-btn"
+            >{{ t('navbar.soojin') }}</router-link>
+            <router-link
+              to="Jiyoon"
+              class="btn btn-ghost btn-sm rounded-btn"
+            >{{ t('navbar.jiyoon') }}</router-link>
+            <router-link
+              to="Monday"
+              class="btn btn-ghost btn-sm rounded-btn"
+            >{{ t('navbar.monday') }}</router-link>
+            <router-link to="Soeun" class="btn btn-ghost btn-sm rounded-btn">{{ t('navbar.soeun') }}</router-link>
+            <router-link
+              to="Jaehee"
+              class="btn btn-ghost btn-sm rounded-btn"
+            >{{ t('navbar.jaehee') }}</router-link>
+            <router-link to="Jihan" class="btn btn-ghost btn-sm rounded-btn">{{ t('navbar.jihan') }}</router-link>
+            <router-link to="Zoa" class="btn btn-ghost btn-sm rounded-btn">{{ t('navbar.zoa') }}</router-link>
           </div>
         </MenuItem>
       </MenuItems>
