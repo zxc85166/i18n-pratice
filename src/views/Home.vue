@@ -113,6 +113,7 @@ function scrollToTop() {
 </script>
 
 <template>
+  <!-- Gotop -->
   <div class="fixed right-5 bottom-5 z-50">
     <div data-tip="回到頂端" class="tooltip">
       <div class="avatar cursor-pointer" @click="scrollToTop">
@@ -263,6 +264,7 @@ function scrollToTop() {
         <div class="collapse-title text-xl font-extrabold" id="s-1">1. 概要</div>
         <div class="collapse-content">
           <div class="w-1/2 mx-auto">
+            <!-- poster="/skins/senkawa/eff02a509fa92bb835d8902dd4b5b760.gif" -->
             <video
               src="https://ww.namu.la/s/6d513337a702662bf9ca2dd3da278269239efbe6e83b391d9c60c3ea3dcb1bdb7fb822312f464f31f6fadfb059c8cba55e9f10dd73a09f827e62993cc2188aaa99d4d577e31ff9a535390c36a479453edadfeff12170c9bd89999f9e6d0b0cab"
               loop
