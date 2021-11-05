@@ -41,10 +41,7 @@ function scrollToTop() {
         <div class="px-2 mx-2 navbar-start">
           <router-link to="/">
             <div class="w-2/3">
-              <img
-                src="https://w.namu.la/s/e8736bf4aae183c0b7245027c772885cec7d78f1fc9ff2ffdefb3c01ac8a4b9b41e5dc7900dfbbc5bce38f9f3120ad7892f6cc1fdb0416c3e9304ac2e732d757ca2ebac2dea411f175c6503cf1170ace25487d77c348cd8d11501039549450945263fa6718b566aa2b56c3315575608f"
-                alt
-              />
+              <img src="@/assets/images/weeekly.png" alt="這是Weekly的logo" />
             </div>
           </router-link>
         </div>

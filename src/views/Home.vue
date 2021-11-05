@@ -102,10 +102,7 @@ const { t } = useI18n();
           <!-- logo -->
           <div class="grid grid-cols-3 gap-2 grid-flow-col divide-x m-3">
             <div class="col-span-2 grid place-items-center">
-              <img
-                src="https://w.namu.la/s/e8736bf4aae183c0b7245027c772885cec7d78f1fc9ff2ffdefb3c01ac8a4b9b41e5dc7900dfbbc5bce38f9f3120ad7892f6cc1fdb0416c3e9304ac2e732d757ca2ebac2dea411f175c6503cf1170ace25487d77c348cd8d1150103954945094a68c7a24da835eb990271380e9f1e3fe"
-                class="w-3/5"
-              />
+              <img src="@/assets/images/weeekly.png" class="w-3/5" />
             </div>
             <div>
               <div class="mt-3">
