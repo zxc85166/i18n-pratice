@@ -9,7 +9,17 @@
     "jihan": "韓智效(Jihan)",
     "zoa": "趙慧洹(Zoa)"
   },
+  "week":{
+    "Monday":"星期一",
+    "Tuesday":"星期二",
+    "Wednesday":"星期三",
+    "Thursday":"星期四",
+    "Friday":"星期五",
+    "Saturday":"星期六",
+    "Sunday":"星期日"
+  },
   "home":{
+    "DisclosureButton":"[ 世界觀👇 摺疊/展開 ]",
     "Directory": {
       "directory": "目錄",
       "summary": "概要",
@@ -29,7 +39,13 @@
       "chat":"閒談"
     },
     "Group Information":{
-      "debut":"出道"
+      "debut":"出道",
+      "Music style":"曲風",
+      "leader":"隊長",
+      "agency":"經紀公司",
+      "Record company":"唱片公司",
+      "fandom":"飯圈",
+      "link":"外部連結"
     }
   }
 }

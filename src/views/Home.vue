@@ -1,6 +1,11 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
-const { t } = useI18n()
+import {
+  Disclosure,
+  DisclosureButton,
+  DisclosurePanel,
+} from '@headlessui/vue'
+const { t } = useI18n();
 </script>
 
 <template>
@@ -10,12 +15,10 @@ const { t } = useI18n()
     >
       <!-- 團體照 -->
       <div
-        class="card flex-initial shadow-sm bg-accent text-accent-content text-center mx-auto w-auto"
+        class="card flex-initial shadow-sm bg-accent text-accent-content text-center mx-auto w-full md:w-4/5"
       >
         <figure>
-          <img
-            src="https://w.namu.la/s/3bbd1e4e5a5e95adc0f86e4a40bcbe1cb03decfe4bd73bdcf5bbb4044488fadefd343225d42ef1bdf3e6fb6aaa5ca9497316d2d4626417ba0b645eefd979b74877929e453966b8d7e173fb9bc0fc9d730e5b4db8a77eeef0f9325a596a77efe2b147bca120a13cf6a2562bdf3a399c1b"
-          />
+          <img src="@/assets/images/home.jpg" />
         </figure>
         <div class="card-body bg-green-100">
           <h2 class="card-title">Weeekly 4th Mini Album</h2>
@@ -129,21 +132,27 @@ const { t } = useI18n()
             </div>
           </div>
           <div class="grid grid-cols-3 grid-flow-col grid-flow-row">
-            <div class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center">데뷔</div>
+            <div
+              class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center"
+            >{{ t('home.Group Information.Music style') }}</div>
             <div class="col-span-2 grid place-items-center">
               <p class="pl-2 text-blue-100">댄스, 퓨처 베이스, R&B</p>
             </div>
           </div>
           <div class="grid grid-cols-3 grid-flow-col grid-flow-row">
-            <div class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center">데뷔</div>
+            <div
+              class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center"
+            >{{ t('home.Group Information.leader') }}</div>
             <div class="col-span-2 grid place-items-center">
               <span class="pl-2">
-                <router-link to="Soojin" class="no-underline hover:underline">이수진</router-link>
+                <router-link to="Soojin" class="no-underline hover:underline">{{ t('name.soojin') }}</router-link>
               </span>
             </div>
           </div>
           <div class="grid grid-cols-3 grid-flow-col grid-flow-row">
-            <div class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center">데뷔</div>
+            <div
+              class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center"
+            >{{ t('home.Group Information.agency') }}</div>
             <div class="col-span-2 grid place-items-center">
               <img
                 class="w-1/4"
@@ -152,7 +161,9 @@ const { t } = useI18n()
             </div>
           </div>
           <div class="grid grid-cols-3 grid-flow-col grid-flow-row">
-            <div class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center">데뷔</div>
+            <div
+              class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center"
+            >{{ t('home.Group Information.Record company') }}</div>
             <div class="col-span-2 grid place-items-center">
               <img
                 class="w-1/4"
@@ -161,7 +172,9 @@ const { t } = useI18n()
             </div>
           </div>
           <div class="grid grid-cols-3 grid-flow-col grid-flow-row">
-            <div class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center">데뷔</div>
+            <div
+              class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center"
+            >{{ t('home.Group Information.fandom') }}</div>
             <div class="col-span-2 grid place-items-center">
               <img
                 class="w-1/4"
@@ -170,7 +183,9 @@ const { t } = useI18n()
             </div>
           </div>
           <div class="grid grid-cols-3 grid-flow-col grid-flow-row">
-            <div class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center">데뷔</div>
+            <div
+              class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center"
+            >{{ t('home.Group Information.link') }}</div>
             <div class="col-span-2 flex items-center justify-center gap-3">
               <img
                 class="w-5"
@@ -382,6 +397,49 @@ const { t } = useI18n()
                   src="https://w.namu.la/s/1c26fee5598c453828e3ffe98c6c89e06ec73f2d1eb99fe3afecbe29185624233dbf235dc060c371e8a64945b1ad75722d45cf24490330207851085db2de9192ac6690312354d85aa96cbff7fb0c97d81b92a03703999443eda3bb1b2a97b658228c73d8f417ee351f3e422024334317"
                 />
               </div>
+            </div>
+            <div class="col-span-2 md:col-span-4">
+              <Disclosure>
+                <DisclosureButton class="py-2 font-bold">{{ t('home.DisclosureButton') }}</DisclosureButton>
+                <DisclosurePanel>
+                  <div
+                    class="grid grid-cols-4 grid-flow-row auto-rows-max divide-y divide-x divide-slate-300 font-bold leading-9"
+                  >
+                    <div class="bg-blue-100 text-white">이름</div>
+                    <div class="bg-blue-100 text-white">이름</div>
+                    <div class="bg-blue-100 text-white">이름</div>
+                    <div class="bg-blue-100 text-white">이름</div>
+                    <div class="text-red-500">{{ t('name.soojin') }}</div>
+                    <div>{{ t('week.Monday') }}</div>
+                    <div>태양</div>
+                    <div>20</div>
+                    <div class="text-red-500">{{ t('name.jiyoon') }}</div>
+                    <div>{{ t('week.Tuesday') }}</div>
+                    <div>태양</div>
+                    <div>88</div>
+                    <div class="text-red-500">{{ t('name.monday') }}</div>
+                    <div>{{ t('week.Wednesday') }}</div>
+                    <div>태양</div>
+                    <div>76</div>
+                    <div class="text-red-500">{{ t('name.soeun') }}</div>
+                    <div>{{ t('week.Thursday') }}</div>
+                    <div>태양</div>
+                    <div>03</div>
+                    <div class="text-red-500">{{ t('name.jaehee') }}</div>
+                    <div>{{ t('week.Friday') }}</div>
+                    <div>태양</div>
+                    <div>92</div>
+                    <div class="text-red-500">{{ t('name.jihan') }}</div>
+                    <div>{{ t('week.Saturday') }}</div>
+                    <div>태양</div>
+                    <div>96</div>
+                    <div class="text-red-500">{{ t('name.zoa') }}</div>
+                    <div>{{ t('week.Sunday') }}</div>
+                    <div>태양</div>
+                    <div>77</div>
+                  </div>
+                </DisclosurePanel>
+              </Disclosure>
             </div>
           </div>
         </div>
