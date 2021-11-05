@@ -98,7 +98,7 @@ const { t } = useI18n();
           </div>
         </div>
         <!-- 簡介 -->
-        <div class="grid grid-flow-row border-2 border-blue-100 divide-y">
+        <div class="grid grid-flow-row border-2 border-blue-100 divide-y leading-9">
           <!-- logo -->
           <div class="grid grid-cols-3 gap-2 grid-flow-col divide-x m-3">
             <div class="col-span-2 grid place-items-center">
@@ -186,7 +186,7 @@ const { t } = useI18n();
             <div
               class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center"
             >{{ t('home.Group Information.link') }}</div>
-            <div class="col-span-2 flex items-center justify-center gap-3">
+            <div class="col-span-2 flex items-center justify-center gap-[2px] md:gap-3">
               <img
                 class="w-5"
                 src="https://w.namu.la/s/913173d9078c65ab468fc0584e1f3a16b5ef767d17e370285caa47913fae652bd9c3da90c997e8e85d353d1ca53e2c816ce616a49efb77fd06c2293d9f27f87b8b4b5fc1a86214cd25b209039a98b3431cf54722cb12601aeb1f634969d780917d6c30f7fba8b6b7802a41dbcc48bcf8"
@@ -406,44 +406,53 @@ const { t } = useI18n();
             <div class="col-span-2 md:col-span-4">
               <Disclosure>
                 <DisclosureButton class="py-2 font-bold">{{ t('home.DisclosureButton') }}</DisclosureButton>
-                <DisclosurePanel>
-                  <div
-                    class="grid grid-cols-4 grid-flow-row auto-rows-max divide-y divide-x divide-slate-300 font-bold leading-9"
-                  >
-                    <div class="bg-blue-100 text-white">이름</div>
-                    <div class="bg-blue-100 text-white">이름</div>
-                    <div class="bg-blue-100 text-white">이름</div>
-                    <div class="bg-blue-100 text-white">이름</div>
-                    <div class="text-red-500">{{ t('name.soojin') }}</div>
-                    <div>{{ t('week.Monday') }}</div>
-                    <div>태양</div>
-                    <div>20</div>
-                    <div class="text-red-500">{{ t('name.jiyoon') }}</div>
-                    <div>{{ t('week.Tuesday') }}</div>
-                    <div>태양</div>
-                    <div>88</div>
-                    <div class="text-red-500">{{ t('name.monday') }}</div>
-                    <div>{{ t('week.Wednesday') }}</div>
-                    <div>태양</div>
-                    <div>76</div>
-                    <div class="text-red-500">{{ t('name.soeun') }}</div>
-                    <div>{{ t('week.Thursday') }}</div>
-                    <div>태양</div>
-                    <div>03</div>
-                    <div class="text-red-500">{{ t('name.jaehee') }}</div>
-                    <div>{{ t('week.Friday') }}</div>
-                    <div>태양</div>
-                    <div>92</div>
-                    <div class="text-red-500">{{ t('name.jihan') }}</div>
-                    <div>{{ t('week.Saturday') }}</div>
-                    <div>태양</div>
-                    <div>96</div>
-                    <div class="text-red-500">{{ t('name.zoa') }}</div>
-                    <div>{{ t('week.Sunday') }}</div>
-                    <div>태양</div>
-                    <div>77</div>
-                  </div>
-                </DisclosurePanel>
+                <transition
+                  enter-active-class="transition duration-100 ease-out"
+                  enter-from-class="transform scale-95 opacity-0"
+                  enter-to-class="transform scale-100 opacity-100"
+                  leave-active-class="transition duration-75 ease-out"
+                  leave-from-class="transform scale-100 opacity-100"
+                  leave-to-class="transform scale-95 opacity-0"
+                >
+                  <DisclosurePanel>
+                    <div
+                      class="grid grid-cols-4 grid-flow-row auto-rows-max divide-y divide-x divide-slate-300 font-bold leading-9"
+                    >
+                      <div class="bg-blue-100 text-white">이름</div>
+                      <div class="bg-blue-100 text-white">이름</div>
+                      <div class="bg-blue-100 text-white">이름</div>
+                      <div class="bg-blue-100 text-white">이름</div>
+                      <div class="text-red-500">{{ t('name.soojin') }}</div>
+                      <div>{{ t('week.Monday') }}</div>
+                      <div>태양</div>
+                      <div>20</div>
+                      <div class="text-red-500">{{ t('name.jiyoon') }}</div>
+                      <div>{{ t('week.Tuesday') }}</div>
+                      <div>태양</div>
+                      <div>88</div>
+                      <div class="text-red-500">{{ t('name.monday') }}</div>
+                      <div>{{ t('week.Wednesday') }}</div>
+                      <div>태양</div>
+                      <div>76</div>
+                      <div class="text-red-500">{{ t('name.soeun') }}</div>
+                      <div>{{ t('week.Thursday') }}</div>
+                      <div>태양</div>
+                      <div>03</div>
+                      <div class="text-red-500">{{ t('name.jaehee') }}</div>
+                      <div>{{ t('week.Friday') }}</div>
+                      <div>태양</div>
+                      <div>92</div>
+                      <div class="text-red-500">{{ t('name.jihan') }}</div>
+                      <div>{{ t('week.Saturday') }}</div>
+                      <div>태양</div>
+                      <div>96</div>
+                      <div class="text-red-500">{{ t('name.zoa') }}</div>
+                      <div>{{ t('week.Sunday') }}</div>
+                      <div>태양</div>
+                      <div>77</div>
+                    </div>
+                  </DisclosurePanel>
+                </transition>
               </Disclosure>
             </div>
           </div>
