@@ -1,6 +1,7 @@
 {
   "language": "한국어",
   "name":{
+    "weeekly":"위클리",
     "soojin":"이수진",
     "jiyoon":"신지윤",
     "monday":"김지민(Monday)",
@@ -46,6 +47,16 @@
       "Record company":"유통사",
       "fandom":"팬덤",
       "link":"관련 링크"
+    },
+    "position":{
+      "leader":"리더",
+      "center":"센터",
+      "main dancer":"메인댄서",
+      "lead dancer":"리드댄서",
+      "main vocal":"메인보컬",
+      "lead vocal":"리드보컬",
+      "sub vocal":"서브보컬",
+      "rapper":"래퍼"
     }
   }
 }

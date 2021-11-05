@@ -1,6 +1,7 @@
 {
   "language": "中文",
   "name":{
+    "weeekly":"微顆粒",
     "soojin": "李受珍",
     "jiyoon": "申智阭",
     "monday": "金智敏(Monday)",
@@ -46,6 +47,16 @@
       "Record company":"唱片公司",
       "fandom":"飯圈",
       "link":"外部連結"
+    },
+    "position":{
+      "leader":"隊長",
+      "center":"中心",
+      "main dancer":"主舞",
+      "lead dancer":"領舞",
+      "main vocal":"主唱",
+      "lead vocal":"領唱",
+      "sub vocal":"副唱",
+      "rapper":"rapper"
     }
   }
 }

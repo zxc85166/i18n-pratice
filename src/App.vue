@@ -20,7 +20,7 @@ function scrollToTop() {
         <div data-tip="切換語言" class="tooltip">
           <i18n />
         </div>
-        <div data-tip="回到頂端" class="tooltip">
+        <div data-tip="回到頂端" class="tooltip tooltip-left">
           <div class="avatar cursor-pointer" @click="scrollToTop">
             <div
               class="mb-8 rounded-full w-12 h-12 md:w-24 md:h-24 ring ring-blue-100 ring-offset-base-100 ring-offset-2"

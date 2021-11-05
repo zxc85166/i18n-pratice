@@ -113,7 +113,7 @@ const { t } = useI18n();
                   We
                   <span class="text-red-500 ml-[-4px]">e</span>ekly
                 </span>
-                <p class="pl-2 text-blue-100">위클리</p>
+                <p class="pl-2 text-blue-100">{{ t('name.weeekly') }}</p>
               </div>
             </div>
           </div>
@@ -278,17 +278,18 @@ const { t } = useI18n();
               <div
                 class="bg-blue-100 text-white font-bold grid place-items-center p-1"
               >{{ t('name.soojin') }}</div>
-              <div class="p-1">2001. 12. 12</div>
+              <div class="p-1">2001. 12. 12.</div>
               <div class="p-1">
                 <p>
-                  <strong>리더</strong>
+                  <strong>{{ t('home.position.leader') }}</strong>
                 </p>
                 <p>
-                  <strong>센터</strong>
+                  <strong>{{ t('home.position.center') }}</strong>
                 </p>
                 <p>
-                  <strong>메인댄서</strong>
-                </p>서브보컬
+                  <strong>{{ t('home.position.main dancer') }}</strong>
+                </p>
+                {{ t('home.position.sub vocal') }}
               </div>
             </div>
             <div class="grid grid-flow-row auto-rows-max border divide-y divide-slate-300">
@@ -301,11 +302,11 @@ const { t } = useI18n();
               <div
                 class="bg-blue-100 text-white font-bold grid place-items-center p-1"
               >{{ t('name.jiyoon') }}</div>
-              <div class="p-1">2001. 12. 12</div>
+              <div class="p-1">2002. 03. 02.</div>
               <div class="p-1">
-                <p>리드보컬</p>
-                <p>리드댄서</p>
-                <p>래퍼</p>
+                <p>{{ t('home.position.lead vocal') }}</p>
+                <p>{{ t('home.position.lead dancer') }}</p>
+                <p>{{ t('home.position.rapper') }}</p>
               </div>
             </div>
             <div class="grid grid-flow-row auto-rows-max border divide-y divide-slate-300">
@@ -318,15 +319,15 @@ const { t } = useI18n();
               <div
                 class="bg-blue-100 text-white font-bold grid place-items-center p-1"
               >{{ t('name.monday') }}</div>
-              <div class="p-1">2001. 12. 12</div>
+              <div class="p-1">2002. 05. 10.</div>
               <div class="p-1">
                 <p>
-                  <strong>메인보컬</strong>
+                  <strong>{{ t('home.position.main vocal') }}</strong>
                 </p>
                 <p>
-                  <strong>메인댄서</strong>
+                  <strong>{{ t('home.position.main dancer') }}</strong>
                 </p>
-                <p>래퍼</p>
+                <p>{{ t('home.position.rapper') }}</p>
               </div>
             </div>
             <div class="grid grid-flow-row auto-rows-max border divide-y divide-slate-300">
@@ -339,11 +340,12 @@ const { t } = useI18n();
               <div
                 class="bg-blue-100 text-white font-bold grid place-items-center p-1"
               >{{ t('name.soeun') }}</div>
-              <div class="p-1">2001. 12. 12</div>
+              <div class="p-1">2002. 10. 26.</div>
               <div class="p-1">
                 <p>
-                  <strong>메인댄서</strong>
-                </p>리드보컬
+                  <strong>{{ t('home.position.main dancer') }}</strong>
+                </p>
+                {{ t('home.position.lead vocal') }}
               </div>
             </div>
             <div class="grid grid-flow-row auto-rows-max border divide-y divide-slate-300">
@@ -356,9 +358,10 @@ const { t } = useI18n();
               <div
                 class="bg-blue-100 text-white font-bold grid place-items-center p-1"
               >{{ t('name.jaehee') }}</div>
-              <div class="p-1">2001. 12. 12</div>
+              <div class="p-1">2004. 03. 18.</div>
               <div class="p-1">
-                <p>서브보컬</p>래퍼
+                <p>{{ t('home.position.sub vocal') }}</p>
+                {{ t('home.position.rapper') }}
               </div>
             </div>
             <div class="grid grid-flow-row auto-rows-max border divide-y divide-slate-300">
@@ -371,9 +374,10 @@ const { t } = useI18n();
               <div
                 class="bg-blue-100 text-white font-bold grid place-items-center p-1"
               >{{ t('name.jihan') }}</div>
-              <div class="p-1">2001. 12. 12</div>
+              <div class="p-1">2004. 07. 12.</div>
               <div class="p-1">
-                <p>리드보컬</p>리드댄서
+                <p>{{ t('home.position.lead vocal') }}</p>
+                {{ t('home.position.lead dancer') }}
               </div>
             </div>
             <div class="grid grid-flow-row auto-rows-max border divide-y divide-slate-300">
@@ -386,9 +390,10 @@ const { t } = useI18n();
               <div
                 class="bg-blue-100 text-white font-bold grid place-items-center p-1"
               >{{ t('name.zoa') }}</div>
-              <div class="p-1">2001. 12. 12</div>
+              <div class="p-1">2005. 05. 31.</div>
               <div class="p-1">
-                <p>서브보컬</p>래퍼
+                <p>{{ t('home.position.sub vocal') }}</p>
+                {{ t('home.position.rapper') }}
               </div>
             </div>
             <div class="my-auto">
