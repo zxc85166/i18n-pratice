@@ -267,10 +267,7 @@ const { t } = useI18n();
           >
             <div class="grid grid-flow-row auto-rows-max border divide-y divide-slate-300">
               <div class="w-full">
-                <img
-                  class="w-full"
-                  src="https://w.namu.la/s/5db369ce38cc9091102630d36b59d132110bf7ff6fd11f8287d7622b0968e20ac5d9b8cb3ad3c95e10783512c7e74aa8a95972b386c21e7722a90400706ab2e5ef30f22d2e4969a5d0301a24e4bcb18895552ac861ec6458521d044488e4d11544b4c514b211d201aa71e662b4ce8162"
-                />
+                <img class="w-full" src="@/assets/images/soojin.jpg" />
               </div>
               <div
                 class="bg-blue-100 text-white font-bold grid place-items-center p-1"
@@ -291,10 +288,7 @@ const { t } = useI18n();
             </div>
             <div class="grid grid-flow-row auto-rows-max border divide-y divide-slate-300">
               <div class="w-full">
-                <img
-                  class="w-full"
-                  src="https://w.namu.la/s/32ba23b1f31214d4c0686ab6c679fcd594ec3be448ec11d3b1dc3e655c5adb0e57a28522ab851f6d815f984819d0ecb4b07d101207ee23005af5b94d77a0d339413045600e894e243624997c983993c0138018dedc805aa7db21697fb389c182e344d7d3fef8dae71e5019eafa0c5ea8"
-                />
+                <img class="w-full" src="@/assets/images/jiyoon.jpg" />
               </div>
               <div
                 class="bg-blue-100 text-white font-bold grid place-items-center p-1"
@@ -308,10 +302,7 @@ const { t } = useI18n();
             </div>
             <div class="grid grid-flow-row auto-rows-max border divide-y divide-slate-300">
               <div class="w-full">
-                <img
-                  class="w-full"
-                  src="https://w.namu.la/s/c257247913cd4d82f683a854c4089eea4d3ccaabbd66b5405881aabe230cd67e135e20e3dbd8b72b6a16ce867a4b964a1acff00e3ced09a8ba0bef6ebc5e663e83bf9bfae1d157464d56069ea46976a97cd36ed604c68ce205fb2fbcc1698dfd6e74fc6f03d619c92158330e3b7e7ead"
-                />
+                <img class="w-full" src="@/assets/images/monday.jpg" />
               </div>
               <div
                 class="bg-blue-100 text-white font-bold grid place-items-center p-1"
