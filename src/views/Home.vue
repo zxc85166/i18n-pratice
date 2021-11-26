@@ -151,10 +151,7 @@ const { t } = useI18n();
               class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center"
             >{{ t('home.Group Information.agency') }}</div>
             <div class="col-span-2 grid place-items-center">
-              <img
-                class="w-1/4"
-                src="https://w.namu.la/s/7d36306a2571e6b24e97b8783de7f86cd83d69df44e5eb9020eaed48376b6432eb44dae00b8fc73890f33e6acc51f12e068a005a258ddb6324c6fb507adf1c47908cb1b349be3325c1e626962f9516bfb6e28634e6435f7d02fd60ed3832fcac"
-              />
+              <img class="w-1/4" src="@/assets/images/IST.png" />
             </div>
           </div>
           <div class="grid grid-cols-3 grid-flow-col grid-flow-row">
@@ -320,10 +317,7 @@ const { t } = useI18n();
             </div>
             <div class="grid grid-flow-row auto-rows-max border divide-y divide-slate-300">
               <div class="w-full">
-                <img
-                  class="w-full"
-                  src="https://w.namu.la/s/a7a1c6048242bc5f959ff016fe10d149b6ec98956bb4549bb5d754835d59a04f58affe214c53262727c07ef1e2c5b97ed08b592d745bddcb47625ed20b7013d9850d7704d05582bf3cae6faa8e8cb8c0d5e02404747e8d8d5201dae16d2300d2c1fc73eea4f2e2502347e4dba731f5d8"
-                />
+                <img class="w-full" src="@/assets/images/soeun.jpg" />
               </div>
               <div
                 class="bg-blue-100 text-white font-bold grid place-items-center p-1"
@@ -338,10 +332,7 @@ const { t } = useI18n();
             </div>
             <div class="grid grid-flow-row auto-rows-max border divide-y divide-slate-300">
               <div class="w-full">
-                <img
-                  class="w-full"
-                  src="https://w.namu.la/s/f063d1356e6edf95af9f9360b23e0fedbc63c867aae3d260d53a686a0f36651644effb8c521e5d6ecb8c2522a43aa7d6d2662983ec3b9cd97eb8dfd921b01f832211e3018127f0f8c94dab51fa21d75d734bc202a846e7924ff5911d11c647b21128f84aabd6a2fb95dd0e43fe224012"
-                />
+                <img class="w-full" src="@/assets/images/jaehee.jpg" />
               </div>
               <div
                 class="bg-blue-100 text-white font-bold grid place-items-center p-1"
@@ -354,10 +345,7 @@ const { t } = useI18n();
             </div>
             <div class="grid grid-flow-row auto-rows-max border divide-y divide-slate-300">
               <div class="w-full">
-                <img
-                  class="w-full"
-                  src="https://w.namu.la/s/891f1405f0472d973e7a7dd68e37a4d55b9e904e4f6e7c878f3fb94f1d144b27811caa061faedaca5a1f3840bd88b9d5e7aa8cee38381b03f1ef5ae7de5929d3c6ad356089884cc2e1d0cae3a0225f6b0c055f7720fefe6a55470644433e0c28fe0e5855e0d4cd0aa5d8003c4ade30b1"
-                />
+                <img class="w-full" src="@/assets/images/jihan.jpg" />
               </div>
               <div
                 class="bg-blue-100 text-white font-bold grid place-items-center p-1"
@@ -370,10 +358,7 @@ const { t } = useI18n();
             </div>
             <div class="grid grid-flow-row auto-rows-max border divide-y divide-slate-300">
               <div class="w-full">
-                <img
-                  class="w-full"
-                  src="https://w.namu.la/s/e30eb453f56e30012e92384dc81cb214a4c9933ba1383f86e3333839cbb372d989fd75b272897e88d17e5a27407173466b76f9490909f1ed14f64de03ade5e79585a1e385af3605593af339530152558f7e6bb1239e0af61536fd464e2c3cff054734eb5a316c6a04dfffb0af19bcce7"
-                />
+                <img class="w-full" src="@/assets/images/zoa.jpg" />
               </div>
               <div
                 class="bg-blue-100 text-white font-bold grid place-items-center p-1"
