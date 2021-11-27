@@ -645,14 +645,16 @@ const { t } = useI18n();
             </div>
 
             <!-- table -->
-            <div class="text-center grid divide-x-1 border-2 border-blue-100 divide-white">
+            <div
+              class="text-center grid divide-x-1 border-2 border-blue-100 divide-white overflow-auto"
+            >
+              <div class="bg-blue-100 text-white font-semibold">
+                <span>
+                  <p class="mt-1">Weeekly MV Youtube 조회수</p>
+                  <p class="mb-1">(2021년 08월 19일 PM 7:40 KST 기준)</p>
+                </span>
+              </div>
               <table class="table-auto border-collapse w-full">
-                <thead>
-                  <span class="bg-blue-100 text-white font-semibold">
-                    <p class="mt-1">Weeekly MV Youtube 조회수</p>
-                    <p class="mb-1">(2021년 08월 19일 PM 7:40 KST 기준)</p>
-                  </span>
-                </thead>
                 <tbody class="bg-white">
                   <tr class="bg-blue-100 text-white font-semibold">
                     <td class="border border-gray-200">순위</td>
@@ -766,7 +768,28 @@ const { t } = useI18n();
                 id="s-6"
               >7.2.1 {{ t('home.Directory.ads') }}</div>
               <div class="collapse-content">
-                <div class="mx-5 gird"></div>
+                <div class="mx-5 gird">
+                  <table class="table-auto w-full border border-blue-100 text-center">
+                    <thead class="bg-blue-100 text-white">
+                      <tr class="divide-white divide-x">
+                        <th>기업명</th>
+                        <th>브랜드명</th>
+                        <th>분류</th>
+                        <th>출연 멤버</th>
+                        <th>비고</th>
+                      </tr>
+                    </thead>
+                    <tbody class="bg-white">
+                      <tr class="divide-gray-300 divide-x">
+                        <td>다비치 안경 체인</td>
+                        <td>텐션 7데이 렌즈</td>
+                        <td>브랜드 모델</td>
+                        <td>전원</td>
+                        <td>브랜드송 텐션업</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
