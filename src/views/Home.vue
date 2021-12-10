@@ -199,14 +199,7 @@ const { t } = useI18n();
         <div class="collapse-content">
           <div class="w-1/2 mx-auto">
             <!-- poster="/skins/senkawa/eff02a509fa92bb835d8902dd4b5b760.gif" -->
-            <video
-              src="https://ww.namu.la/s/6d513337a702662bf9ca2dd3da278269239efbe6e83b391d9c60c3ea3dcb1bdb7fb822312f464f31f6fadfb059c8cba55e9f10dd73a09f827e62993cc2188aaa99d4d577e31ff9a535390c36a479453edadfeff12170c9bd89999f9e6d0b0cab"
-              loop
-              autoplay
-              muted
-              playsinline
-              loading="lazy"
-            ></video>
+            <video src="@/assets/videos/weeekly.mp4" loop autoplay muted playsinline loading="lazy"></video>
           </div>
           <div
             class="border-dashed border-2 border-gray-400 bg-white text-center m-5 p-1 w-1/2 mx-auto"
@@ -756,42 +749,39 @@ const { t } = useI18n();
         <input type="checkbox" />
         <div
           class="collapse-title text-xl font-extrabold"
-          id="s-6"
+          id="s-7.2"
         >7.2 {{ t('home.Directory.advertise') }}</div>
         <div class="collapse-content">
           <div class="mx-5 gird">
             <!-- 7.2.1 廣告 -->
-            <div class="collapse w-full collapse-arrow">
-              <input type="checkbox" />
-              <div
-                class="collapse-title text-xl font-extrabold"
-                id="s-6"
-              >7.2.1 {{ t('home.Directory.ads') }}</div>
-              <div class="collapse-content">
-                <div class="mx-5 gird">
-                  <table class="table-auto w-full border border-blue-100 text-center">
-                    <thead class="bg-blue-100 text-white">
-                      <tr class="divide-white divide-x">
-                        <th>기업명</th>
-                        <th>브랜드명</th>
-                        <th>분류</th>
-                        <th>출연 멤버</th>
-                        <th>비고</th>
-                      </tr>
-                    </thead>
-                    <tbody class="bg-white">
-                      <tr class="divide-gray-300 divide-x">
-                        <td>다비치 안경 체인</td>
-                        <td>텐션 7데이 렌즈</td>
-                        <td>브랜드 모델</td>
-                        <td>전원</td>
-                        <td>브랜드송 텐션업</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
+            <details>
+              <summary
+                class="text-xl font-extrabold"
+                id="s-7.2.1"
+              >7.2.1 {{ t('home.Directory.ads') }}</summary>
+              <div class="mx-5 gird">
+                <table class="table-auto w-full border border-blue-100 text-center open">
+                  <thead class="bg-blue-100 text-white">
+                    <tr class="divide-white divide-x">
+                      <th>기업명</th>
+                      <th>브랜드명</th>
+                      <th>분류</th>
+                      <th>출연 멤버</th>
+                      <th>비고</th>
+                    </tr>
+                  </thead>
+                  <tbody class="bg-white">
+                    <tr class="divide-gray-300 divide-x">
+                      <td>다비치 안경 체인</td>
+                      <td>텐션 7데이 렌즈</td>
+                      <td>브랜드 모델</td>
+                      <td>전원</td>
+                      <td>브랜드송 텐션업</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
-            </div>
+            </details>
           </div>
         </div>
       </div>
