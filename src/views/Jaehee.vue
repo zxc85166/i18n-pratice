@@ -91,7 +91,7 @@ const { t } = useI18n()
           <!-- 照片 -->
           <div class="grid gap-2 grid-flow-col">
             <div class="col-span-2 grid place-items-center">
-              <img src="@/assets/images/Jaehee.jpg" class="w-full" />
+              <img src="@/assets/images/jaehee.jpg" class="w-full" />
             </div>
           </div>
           <!-- 資訊 -->
