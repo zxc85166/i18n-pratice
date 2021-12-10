@@ -26,9 +26,9 @@ const { t } = useI18n();
         </div>
       </div>
       <!-- 目錄與簡介 -->
-      <div class="grid grid-cols-1 md:grid-cols-2 place-content-between">
+      <div class="grid grid-cols-1 md:grid-cols-2 place-content-between gap-y-3">
         <!-- 目錄 -->
-        <div class="border border-gray p-4">
+        <div class="border border-gray-300 p-4 max-w-max h-fit order-last md:order-1">
           <span class="font-semibold text-xl">{{ t('home.Directory.directory') }}</span>
           <div class="pt-3 flex flex-col">
             <span>
@@ -98,7 +98,7 @@ const { t } = useI18n();
           </div>
         </div>
         <!-- 簡介 -->
-        <div class="grid grid-flow-row border-2 border-blue-100 divide-y leading-9">
+        <div class="grid grid-flow-row border-2 border-blue-100 divide-y leading-9 order-2">
           <!-- logo -->
           <div class="grid grid-cols-3 gap-2 grid-flow-col divide-x m-3">
             <div class="col-span-2 grid place-items-center">
@@ -121,7 +121,7 @@ const { t } = useI18n();
               class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center"
             >{{ t('home.Group Information.debut') }}</div>
             <div class="col-span-2 grid place-items-center">
-              <div class="pl-2 text-blue-100">
+              <div class="pl-2">
                 <p>2020년 6월 30일</p>
                 <p>미니 1집 We are</p>
                 <p>데뷔일로부터 +491일째</p>
@@ -133,7 +133,7 @@ const { t } = useI18n();
               class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center"
             >{{ t('home.Group Information.Music style') }}</div>
             <div class="col-span-2 grid place-items-center">
-              <p class="pl-2 text-blue-100">댄스, 퓨처 베이스, R&B</p>
+              <p class="pl-2">댄스, 퓨처 베이스, R&B</p>
             </div>
           </div>
           <div class="grid grid-cols-3 grid-flow-col grid-flow-row">
@@ -151,7 +151,7 @@ const { t } = useI18n();
               class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center"
             >{{ t('home.Group Information.agency') }}</div>
             <div class="col-span-2 grid place-items-center">
-              <img class="w-1/4" src="@/assets/images/IST.png" />
+              <img class="w-1/3 m-2" src="@/assets/images/IST.png" />
             </div>
           </div>
           <div class="grid grid-cols-3 grid-flow-col grid-flow-row">
@@ -159,7 +159,7 @@ const { t } = useI18n();
               class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center"
             >{{ t('home.Group Information.Record company') }}</div>
             <div class="col-span-2 grid place-items-center">
-              <img class="w-1/4" src="@/assets/images/kakao.svg" />
+              <img class="w-1/4 m-2" src="@/assets/images/kakao.svg" />
             </div>
           </div>
           <div class="grid grid-cols-3 grid-flow-col grid-flow-row">
@@ -167,7 +167,7 @@ const { t } = useI18n();
               class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center"
             >{{ t('home.Group Information.fandom') }}</div>
             <div class="col-span-2 grid place-items-center">
-              <img class="w-1/4" src="@/assets/images/Daileee.png" />
+              <img class="w-1/4 m-2" src="@/assets/images/Daileee.png" />
             </div>
           </div>
           <div class="grid grid-cols-3 grid-flow-col grid-flow-row">
@@ -175,14 +175,30 @@ const { t } = useI18n();
               class="col-span-1 bg-blue-100 text-white font-bold grid place-items-center"
             >{{ t('home.Group Information.link') }}</div>
             <div class="col-span-2 flex items-center justify-center gap-[2px] md:gap-3">
-              <img class="w-5" src="@/assets/images/twitter.svg" />
-              <img class="w-5" src="@/assets/images/insta.svg" />
-              <img class="w-5" src="@/assets/images/fb.svg" />
-              <img class="w-5" src="@/assets/images/yt.svg" />
-              <img class="w-5" src="@/assets/images/cafe.png" />
-              <img class="w-5" src="@/assets/images/weverse.png" />
-              <img class="w-5" src="@/assets/images/vlive.svg" />
-              <img class="w-5" src="@/assets/images/tiktok.svg" />
+              <a href="https://twitter.com/_Weeekly" target="_blank">
+                <img class="w-5" src="@/assets/images/twitter.svg" />
+              </a>
+              <a href="https://www.instagram.com/_weeekly/" target="_blank">
+                <img class="w-5" src="@/assets/images/insta.svg" />
+              </a>
+              <a href="https://www.facebook.com/WeeeklyOfficial" target="_blank">
+                <img class="w-5" src="@/assets/images/fb.svg" />
+              </a>
+              <a href="https://www.youtube.com/channel/UC5rp2rDRSpyKNj-QLytC-tw/" target="_blank">
+                <img class="w-5" src="@/assets/images/yt.svg" />
+              </a>
+              <a href="https://cafe.daum.net/Weeekly" target="_blank">
+                <img class="w-5" src="@/assets/images/cafe.png" />
+              </a>
+              <a href="https://www.weverse.io/weeekly/feed" target="_blank">
+                <img class="w-5" src="@/assets/images/weverse.png" />
+              </a>
+              <a href="https://channels.vlive.tv/A0ABD1" target="_blank">
+                <img class="w-5" src="@/assets/images/vlive.svg" />
+              </a>
+              <a href="https://www.tiktok.com/@weeekly" target="_blank">
+                <img class="w-5" src="@/assets/images/tiktok.svg" />
+              </a>
             </div>
           </div>
           <!-- 資訊 -->

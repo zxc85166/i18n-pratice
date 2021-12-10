@@ -15,7 +15,7 @@ function scrollToTop() {
 <template>
   <div>
     <!-- Gotop -->
-    <div class="fixed right-5 bottom-5 z-50">
+    <div class="fixed right-5 bottom-5 z-50 opacity-30 hover:opacity-100">
       <div class="grid gap-2">
         <div data-tip="切換語言" class="tooltip">
           <i18n />
@@ -39,7 +39,7 @@ function scrollToTop() {
         <div class="px-2 mx-2 navbar-start">
           <router-link to="/">
             <div class="w-2/3">
-              <img src="@/assets/images/weeekly.png" alt="這是Weekly的logo" />
+              <img src="@/assets/images/weeekly.png" alt="這是logo" />
             </div>
           </router-link>
         </div>
@@ -78,25 +78,13 @@ function scrollToTop() {
       <MenuItems class="flex-none lg:hidden">
         <MenuItem>
           <div class="flex flex-col">
-            <router-link
-              to="Soojin"
-              class="btn btn-ghost btn-sm rounded-btn"
-            >{{ t('navbar.soojin') }}</router-link>
-            <router-link
-              to="Jiyoon"
-              class="btn btn-ghost btn-sm rounded-btn"
-            >{{ t('navbar.jiyoon') }}</router-link>
-            <router-link
-              to="Monday"
-              class="btn btn-ghost btn-sm rounded-btn"
-            >{{ t('navbar.monday') }}</router-link>
-            <router-link to="Soeun" class="btn btn-ghost btn-sm rounded-btn">{{ t('navbar.soeun') }}</router-link>
-            <router-link
-              to="Jaehee"
-              class="btn btn-ghost btn-sm rounded-btn"
-            >{{ t('navbar.jaehee') }}</router-link>
-            <router-link to="Jihan" class="btn btn-ghost btn-sm rounded-btn">{{ t('navbar.jihan') }}</router-link>
-            <router-link to="Zoa" class="btn btn-ghost btn-sm rounded-btn">{{ t('navbar.zoa') }}</router-link>
+            <router-link to="Soojin" class="btn btn-ghost btn-sm rounded-btn">{{ t('name.soojin') }}</router-link>
+            <router-link to="Jiyoon" class="btn btn-ghost btn-sm rounded-btn">{{ t('name.jiyoon') }}</router-link>
+            <router-link to="Monday" class="btn btn-ghost btn-sm rounded-btn">{{ t('name.monday') }}</router-link>
+            <router-link to="Soeun" class="btn btn-ghost btn-sm rounded-btn">{{ t('name.soeun') }}</router-link>
+            <router-link to="Jaehee" class="btn btn-ghost btn-sm rounded-btn">{{ t('name.jaehee') }}</router-link>
+            <router-link to="Jihan" class="btn btn-ghost btn-sm rounded-btn">{{ t('name.jihan') }}</router-link>
+            <router-link to="Zoa" class="btn btn-ghost btn-sm rounded-btn">{{ t('name.zoa') }}</router-link>
           </div>
         </MenuItem>
       </MenuItems>

@@ -47,5 +47,5 @@ export const routes = [
     meta: { title: "Zoa" },
     component: Zoa,
   },
-  { path: "/:path(.*)", component: NotFound },
+  { path: "/:path(.*)", meta: { title: "NotFound" }, component: NotFound },
 ];
